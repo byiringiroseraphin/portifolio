@@ -1,0 +1,638 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 1.2rem;
+  background-color: rgb(30, 28, 28);
+    /* position: relative; */
+    margin-bottom: 10rem;
+}
+hr{
+    color: aqua;
+    border-color: aqua;
+    margin:1rem 0;
+}
+.heade-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2rem;
+    cursor: pointer;
+    padding: 0 1.2rem;
+    background-color: black;
+    color: blanchedalmond;
+    height: 10rem;
+    text-transform: uppercase;
+    
+}
+/* .static{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 10000;
+} */
+.navigation{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.navigation li{
+    margin: 0 2rem;
+    font-size: 2rem;
+}
+/* nav{
+    
+    
+} */
+li{
+    margin-right: 1.2rem;
+    
+}
+li a{
+    text-decoration: none;
+    color:blanchedalmond ;
+    transition: 1s;
+}
+li a:hover{
+    border-bottom: 0.5rem solid #eb2353;
+}
+.search-icon{
+    margin-right: 1.2rem;
+    height: 6rem;
+}
+.menu-icon{
+    height: 6rem;
+
+}
+.hero-section{
+    font-size: 2rem;
+    padding: 0 2rem 5rem 2rem;
+}
+.hero-image img{
+    
+    height: 40rem;
+    margin-right: -2rem;
+    
+
+}
+.hero-text h1{
+    font-size: 5rem;
+    font-weight:bold;
+    color: aliceblue;
+
+}
+.hero-text p{
+    margin-bottom: 3rem;
+    color: aliceblue;
+}
+/* .hero-text .first-name span {
+    display: inline-block;
+    animation: animatrLetters 1.5s forwards;
+    opacity: 0;
+} */
+/* @keyframes animateLetters{
+    from {
+        opacity: 0;
+        transform: translateY(-2rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */
+
+/* .sumarry{
+    margin-top: 2rem ;
+    color: aliceblue;
+    padding: 0 5rem;
+
+} */
+#second-name{
+  
+     font-size: 4rem;
+    margin-bottom: 3.5rem;
+    color: #eb2353;
+    -webkit-text-fill-color: #101010;
+    -webkit-text-stroke-width: 0.1rem;
+    
+}
+
+#title1{
+     margin-bottom: 2rem;
+     color: aliceblue;
+     
+}
+.hire-btn{
+    background-image: url(button-bg.png);
+    background-size: cover;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 3.5rem;
+    margin-top: 9rem;
+    background-position: center;
+    background-size: cover;
+    /* margin-left: 6rem; */
+
+    
+}
+
+
+.about-title{
+    
+    font-size: 6rem;
+    font-weight:bold;
+    color: aliceblue;
+    text-align: center;
+    border-bottom:0.5rem solid #eb2353;
+    
+}
+.about-detail {
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding: 1.2rem 1rem; 
+    
+}
+.award{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.award-title{
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+    border-bottom:0.2rem solid #262223;
+}
+.award-description{
+    font-size: 2rem;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+}
+.award-icon{
+    height: 10rem;
+    width: 5rem;
+    padding-top: 2rem;
+}
+.about-image img{
+    height:60rem;
+}
+.Email a {
+    
+    color: #eb2353;
+    font-size: 3.5rem;
+    border-bottom: #eb2353;
+    margin-top:10rem;
+    
+}
+.grig-2-columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 3rem;
+}
+.experiance-header{
+    grid-column: 1/-1;
+    font-size: 6rem;
+    font-weight:bold;
+    color: aliceblue;
+    /* margin-bottom: 3rem; */
+    border-bottom:0.5rem solid #eb2353;
+}
+.period{
+    color: #eb2353;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+.degree-obtained{
+    color: aliceblue;
+    font-size: 2rem;
+}
+.institution{
+    color: antiquewhite;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.degree-description{
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.appointment input{
+    height: 6rem;
+    width: 100%;
+    border: none;
+    padding:1.2rem 1.3rem ;
+    
+    /* color:w hite; */
+    border-bottom:2rem #eb2353;
+}
+.appointment textarea{
+    width: 100%;
+}
+
+.book-title{
+    font-size:6rem ;
+    font-size: 6rem;
+    font-weight:bold;
+    color: aliceblue;
+    /* margin-bottom: 3rem; */
+    border-bottom:0.5rem solid #eb2353;
+    margin-bottom: 1.6rem;
+    grid-column: 1/-1;
+}
+.Message{
+    grid-column: 1 /3;
+    
+    
+    
+}
+.Message input{
+    height: 12rem;
+    width: 100v;
+    border-radius: 2rem;
+}
+
+
+.Submitt{
+    grid-column: 1 /-1;
+    width: 12rem;
+    height: 4rem;
+    justify-self: center;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    background-color: #eb2353;
+    color: aliceblue;
+}
+ .contact-logos{
+   
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}  
+.contact-header{
+    font-size: 4rem;
+    color: aliceblue;
+    border-bottom:0.5rem solid #eb2353;
+    
+}
+.logos{
+    height: 4.5rem;
+    width: 6rem;
+    text-decoration: none;
+    color:  #146fa1;
+    border-radius: 50%;
+}
+.logos:hover{
+    color: #eb2353;
+    transition: 0.8s;
+    transform: scale(1.1);
+}
+.booking{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 2rem;
+} 
+.contact-left{
+    text-align: center;
+}
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* background-color: aqua; */
+    margin-top: 1.2rem; 
+}
+
+
+.contacts-grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.cntct{
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    margin-top: 1.2rem;
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+.call{
+    margin-right: 1.2rem;
+    
+}
+.gmail-icon{
+    margin-bottom: 0rem;
+}
+.direct-contact li{
+    align-self: center;
+    justify-self: center;
+
+}
+
+img:hover{
+    transform: scale(1.1);
+    
+    cursor: pointer;
+}
+img{
+    overflow: hidden;
+    transition: transform 2s ;
+}
+.contacts:hover{
+    cursor: pointer;
+    stroke: #eb2353;
+   
+}
+.testimonials-title{
+    font-size: 6rem;
+    font-weight:bold;
+    color: aliceblue;
+    /* margin-bottom: 3rem; */
+    border-bottom:0.5rem #eb2353 solid ; 
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+.testimonials-container{
+    display: flex;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: space-between;
+    column-gap: 2rem;
+    color: aliceblue;
+    
+}
+.sub-container:hover{
+    transition: 1.5s;
+
+    transform:translateY(-1.2rem) ;
+    box-shadow: #eb2353;
+    cursor: pointer;
+    overflow: hidden;
+}
+.sub-container img{
+    transform: scale(1);
+}
+.testimonials-container img{
+    border-radius: 50%;
+}
+.name{
+    color: #eb2353;
+}
+.role{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sub-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.sub-container blockquote{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+.sub-container h2{
+    margin-bottom: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 3rem;
+    width: 100%;
+    height: 6rem;
+    background-color: #eb2353;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* footer{
+    background-color: #eb2353;
+    font-size: 2rem;
+    color: aliceblue;
+    margin-bottom: 0;
+    margin-top: 3rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+} */
+
+/* .experiance-icon:nth-child(odd){
+   align-items: right;
+} */
+.experiance-icon:nth-child(odd){
+    
+   align-self:right;
+}
+
+.experiance-description:nth-child(odd){
+    text-align: left;
+}
+.experiance-description:nth-child(even){
+    text-align: right;
+}
+
+
+
+@media (max-width: 940px) {
+   
+    .testimonials-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 2rem;
+        left: 4rem;
+    }
+    /* .sub-container img{
+        align-items: center;
+        justify-content: center;
+    } */
+    .hero-text p{
+        font-size: 1.5rem;
+    }
+    .experiance-header{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .about-title{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .award-description {
+        font-size: 1.2rem;
+    }
+   
+    .testimonials-title{
+        font-size: 4rem;
+        text-align: center;
+    }
+   .book-title{
+    font-size: 4rem;
+    text-align: center;
+    }
+    
+
+@media (max-width:840px) {
+    .hire-btn {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 6rem;
+    }
+    #title1{
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .hero-text h1 {
+        font-size: 4rem;
+    }
+    #second-name {
+        margin-bottom: 2.5rem;
+    }
+     .Email a {
+        font-size: 2.5rem;
+    }
+   
+}
+@media (max-width:768px) {
+    .navigation{
+        display: none;
+    }
+    .experiance-header 
+    .testimonials-title
+    .about-title{
+        font-size: 3.5rem;
+        
+    }
+    .hero-text h1 {
+        font-size: 3.5rem;
+    }
+    .about-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image{
+        display: none;
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .Email{
+        margin-top: 1.3srem;
+        text-align: center;
+    }
+    .testimonials-container{
+        row-gap: 3rem;
+    }
+    .award-description{
+        font-size: 1.6rem;
+    }
+}
+@media (max-width:550px) {
+    .testimonials-container{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .degree-obtained{
+        font-size: 1.5rem;
+    }
+    .experiance-header{
+        font-size: 2.5rem;
+    }
+    .experiances{
+        gap: 1rem;
+    }
+    .degree-description{
+        font-size: 1rem;
+    }
+    .institution
+    .testimonials-title
+    .book-title{
+        font-size: 1.5rem;
+    }
+    .booking{
+        grid-template-columns: 1fr;
+    }
+    .flex1:nth-child(2) {
+        order: 1; /* Swap the second item to the first row */
+      }
+      footer{
+        font-size: 1rem;
+        height: 25%;
+    }
+}
+@media (max-width:320px) {
+    html{
+        font-size: 45%;
+    }
+    .hero-image img{
+        height: 100vh;
+        width: 50%;
+        margin-left: -1rem;
+    }
+    footer{
+        font-size: 1rem;
+    }
+    .institution
+    .testimonials-title
+    .book-title{
+        font-size: 1rem;
+    }
+    .testimonials-container{
+        grid-template-columns: 1fr;
+        align-items: center;
+        
+    }
+    .experiances{
+        grid-template-columns: 1fr;
+    }
+    .testimonials-container{
+       
+        grid-template-columns: 1fr;
+    }
+    .experiance-icon{
+        display: none;
+    }
+    blockquote{
+        font-size: 3rem;
+    }
+    .hire-btn{
+        align-items: center;
+    }
+}
+@media (max-width:412px) {
+    .institution
+    .testimonials-title
+    .book-title{
+        font-size: 0.8rem;
+    }
+    .flex1{
+        gap: 1rem;
+    }
+    footer{
+        font-size: 0.8rem;
+    }
+}}
